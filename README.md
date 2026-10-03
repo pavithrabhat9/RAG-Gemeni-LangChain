@@ -212,41 +212,7 @@ This helps avoid API throttling when processing many chunks.
 - ChromaDB is embedded locally, so scaling beyond a simple project may require a managed vector database.
 - Response quality depends heavily on document quality, chunk size, and retrieval settings.
 
-## Future Improvements
-
-- Add multi-document support with metadata filtering
-- Improve prompt templates for more accurate answers
-- Add conversation memory beyond the current history
-- Support uploading PDFs through the UI
-- Add a web frontend with FastAPI or Streamlit
-- Package the project as a reusable Python application
-
 ## License
 
-This project is provided for educational and development purposes. Add a license if you plan to share it publicly.
+This project is made for learning LangChain and RAG concepts for personal learning and experimentation.
 
-Example:
-
-```bash
-MIT License
-```
-
-## Contributing
-
-Contributions are welcome. If you improve the pipeline, add better prompts, or optimize document retrieval, feel free to submit a pull request.
-
-## Acknowledgements
-
-- LangChain for orchestration
-- Google Generative AI for embeddings and chat models
-- ChromaDB for vector search
-- Gradio for the user interface
-
----
-
-If you want, I can also create:
-
-- a more polished GitHub landing README with badges and screenshots
-- a `requirements.txt` file for this project
-- a `.env.example` file
-- a version tailored for a portfolio or open-source project
