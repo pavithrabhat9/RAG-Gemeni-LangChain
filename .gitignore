@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+
+Data/
+chroma_db/
+
+.venv/
+__pycache__/
+*.py[cod]
